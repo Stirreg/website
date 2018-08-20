@@ -15,22 +15,22 @@ body {
     padding: 10px;
     min-height: 100%;
     font-family: Nunito, sans-serif;
+    font-size: 1.2em;
     text-align: center;
     background: #111 url(background.jpg) center 0 no-repeat fixed;
-    color: #fff;
+    color: #fffaf0;
 }
 
 p {
     margin: 0 0 1em;
-    font-size: 1.2em;
 }
 
 a {
-    color: coral;
+    color: #ff7f50;
 }
 
 a:hover {
-    color: #fff;
+    color: #fffaf0;
 }
 
 
@@ -56,7 +56,7 @@ a:hover {
 .lead {
     font-family: Jura, sans-serif;
     font-size: 1.8em;
-    color: coral;
+    color: #ff7f50;
 }
 
 
@@ -66,7 +66,7 @@ a:hover {
     margin: 0 0 1em;
     font-family: Jura, serif;
     font-weight: normal;
-    color: coral;
+    color: #ff7f50;
 }
 
 .h--title {
@@ -92,6 +92,10 @@ a:hover {
 
 .list--horizontal .list__item {
     display: inline-block;
+}
+
+.list--usps {
+    color: #ff7f50;
 }
 
 
@@ -123,7 +127,7 @@ a:hover {
     font-weight: bold;
     text-decoration: none;
     background-color: #03323F;
-    color: #FFF;
+    color: #fffaf0;
 }
 
 .button:hover {
